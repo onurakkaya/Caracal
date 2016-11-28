@@ -10,7 +10,7 @@ namespace Caracal.Common
     {
         public static bool Between(this int baseVal, int min, int max)
         {
-            return (baseVal <= max && baseVal >= min);
+            return (baseVal >= min && baseVal <= max);
         }
     }
 }
